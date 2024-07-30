@@ -1,4 +1,11 @@
 {
+  "name": "my-uv-project",
+  "version": "1.0.0",
+  "description": "A project using Ultraviolet for proxying.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "@titaniumnetwork-dev/ultraviolet": "^3.2.6",
     "@tomphttp/bare-server-node": "^2.0.3",
